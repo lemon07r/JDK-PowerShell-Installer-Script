@@ -29,4 +29,5 @@ Or copy and paste the code into your editor of choice then save it as a .ps1 fil
 
 ## License
 [MIT License](https://github.com/lemon07r/JDK-PowerShell-Installer-Script/blob/main/LICENSE)
+
 Copyright (c) 2023 Lamim
