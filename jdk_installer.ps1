@@ -1,5 +1,5 @@
 Write-Host "`nJDK PowerShell Installer Script 2023-1-18"
-Write-host "Author - Lamim / lemon07r"
+Write-host "Author - Lamim / lemon07r `nhttps://github.com/lemon07r/JDK-PowerShell-Installer-Script"
 Write-Host "-----------------------------------------`n"
 Write-Host "Checking for Adminstrator permissions and self-elevating if required.."
 
