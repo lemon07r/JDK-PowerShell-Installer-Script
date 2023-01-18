@@ -96,12 +96,13 @@ while ($true) {
 }
 
 anyKeyPause
-
+# Extract JDK from archive
 Write-Host "`n Extracting JDK from ZIP archive to target directory.."
 Expand-Archive $FileBrowser.FileName $selectedDir
 Move-Item "$($selectedDir)\$($JDKName)\*" $selectedDir
 Write-Host "Extraction complete."
 
+# Set environment variables
 Write-Host "`nSetting PATH and JAVA_HOME environment variables"
 setx /M PATH "$($selectedDir)\bin;%PATH%"
 setx /M JAVA_HOME "$($selectedDir)"
