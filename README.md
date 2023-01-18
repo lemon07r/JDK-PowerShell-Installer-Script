@@ -1,4 +1,4 @@
-# JDK-PowerShell-Installer-Script
+# JDK PowerShell Installer Script
 A robust PowerShell script for easily installing any JDK from ZIP archive
 
 ## Todo
