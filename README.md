@@ -28,4 +28,5 @@ Or copy and paste the code into your editor of choice then save it as a .ps1 fil
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/12001338/213161550-270515f6-e524-460b-9ba6-7d1fd2d632c3.png">
 
 ## License
-MIT License
+[MIT License](https://github.com/lemon07r/JDK-PowerShell-Installer-Script/blob/main/LICENSE)
+Copyright (c) 2023 Lamim
