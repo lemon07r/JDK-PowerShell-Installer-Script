@@ -15,6 +15,7 @@ Nothing. This is feature complete. Feel free to use this to make your own versio
 - No file deleting code whatsoever. Only installs to empty directory. Creates directory if non-existant.
 - Defaults to Program Files\Java\{detected JDK name/version}\ on blank entry for quick installs.
 - Sets both PATH and JAVA_HOME environment variables after extraction. 
+- Uses [helper function](https://stackoverflow.com/a/69239861) instead of setx /M, which is known to have issues.
 
 ## Usage
 1. Go to https://github.com/lemon07r/JDK-PowerShell-Installer-Script/blob/main/jdk_installer.ps1
